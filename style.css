@@ -1,0 +1,46 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title {}
+
+.title--main {}
+
+.divider {}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form__label {
+	display: flex;
+	flex-direction: column-reverse;
+}
+
+.input {
+	padding: 5px 10px;
+	border: 1px solid #000;
+	border-radius: 6px;
+	margin-bottom: 20px;
+}
+
+.input-mail {}
+
+.input-tel {}
+
+.texterea {}
+
+.button {
+	padding: 5px 10px;
+	border-radius: 4px;
+	background-color: red;
+
+}
+
+.button:hover {
+	background-color: #f16161;
+}
